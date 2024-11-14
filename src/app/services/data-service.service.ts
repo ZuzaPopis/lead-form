@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { Observable } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { throwError } from 'rxjs';
 
@@ -7,12 +8,12 @@ import { throwError } from 'rxjs';
   providedIn: 'root'
 })
 export class DataServiceService {
-  apiUrl = 'https://lead-form-ee44b-default-rtdb.europe-west1.firebasedatabase.app/formData.json';
+  API_URL = 'https://lead-form-ee44b-default-rtdb.europe-west1.firebasedatabase.app/formData.json';
 
   constructor(private http: HttpClient) { } 
 
   sendData(formData: any) {
-    return this.http.post<any>(this.apiUrl, formData)
+    return this.http.post<any>(this.API_URL, formData)
       .pipe(catchError(this.errorHandler));
   }
 
