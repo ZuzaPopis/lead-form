@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "src\\app\\app.component.ts",
               "ToolTip": "C:\\Users\\plu13486\\source\\repos\\lead-form\\src\\app\\app.component.ts",
               "RelativeToolTip": "src\\app\\app.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-09-06T12:48:44.764Z",
               "IsPinned": true,
@@ -60,11 +60,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -76,8 +76,7 @@
               "RelativeToolTip": "src\\app\\form-data\\broker-form.component.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-16T13:14:41.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T13:14:41.473Z"
             },
             {
               "$type": "Document",

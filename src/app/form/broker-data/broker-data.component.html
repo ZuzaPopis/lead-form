@@ -1,14 +1,14 @@
 <p> id = {{ paramsId }}</p>
 <button class="btn" (click)="onChangeParams()">ZMIEN</button>
-<!-- <div formGroupName="brokerData">
+<div formGroupName="brokerData">
   <div class="form-group">
     <input type="text"
            id="brokerName"
            class="form-control"
            placeholder="Imię i nazwisko Pośrednika"
            formControlName="brokerName">
-    <span *ngIf="!brokerData.get.['brokerName'].valid && brokerData.get('brokerName').touched"
-          class="help-block">Uzupełnij Imię i nazwisko Pośrednika</span>
+    <!-- <span *ngIf="!brokerData.get.['brokerName'].valid && brokerData.get('brokerName').touched"
+          class="help-block">Uzupełnij Imię i nazwisko Pośrednika</span> -->
   </div>
   <div class="form-group">
     <input type="text"
@@ -16,12 +16,12 @@
            class="form-control"
            placeholder="Telefon kontaktowy Pośrednika"
            formControlName="brokerPhone">
-    <span *ngIf="!brokerData.get('brokerPhone').valid && brokerData.get('brokerPhone').touched">
+    <!-- <span *ngIf="!brokerData.get('brokerPhone').valid && brokerData.get('brokerPhone').touched">
       <span *ngIf="brokerData.get('brokerPhone').errors['required']"
             class="help-block">To pole jest wymagane</span>
       <span *ngIf="brokerData.get('brokerPhone').errors['pattern'] && !brokerData.controls['brokerPhone']?.valid"
-            class="help-block">Pole może zawierać tylko cyfry</span>
-    </span>
+            class="help-block">Pole może zawierać tylko cyfry</span> 
+    </span>-->
   </div>
   <div class="form-group">
     <input type="text"
@@ -29,8 +29,8 @@
            class="form-control"
            placeholder="E-mail kontaktowy Pośrednika"
            formControlName="brokerEmail">
-    <span *ngIf="!brokerData.get('brokerEmail').valid && brokerData.get('brokerEmail').touched"
-          class="help-block">Wprowadź poprawny adres email Pośrednika</span>
+    <!-- <span *ngIf="!brokerData.get('brokerEmail').valid && brokerData.get('brokerEmail').touched"
+          class="help-block">Wprowadź poprawny adres email Pośrednika</span> -->
   </div>
   <div class="form-group">
     <input type="email"
@@ -38,11 +38,11 @@
            class="form-control"
            placeholder="NIP/PESEL Pośrednika"
            formControlName="brokerRegNo">
-    <span *ngIf="!brokerData.get('brokerRegNo').valid && brokerData.get('brokerRegNo').touched">
+    <!-- <span *ngIf="!brokerData.get('brokerRegNo').valid && brokerData.get('brokerRegNo').touched">
       <span *ngIf="brokerData.get('brokerRegNo').errors['required'] && brokerData.get('brokerRegNo').touched"
             class="help-block">To pole jest wymagane</span>
       <span *ngIf="brokerData.get('brokerRegNo').errors['pattern'] && !brokerData.controls['brokerRegNo']?.valid"
             class="help-block">Pole może zawierać tylko cyfry</span>
-    </span>
+    </span> -->
   </div>
-</div> -->
+</div>

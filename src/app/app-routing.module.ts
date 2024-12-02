@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BrokerFormComponent } from './form-data/broker-form.component';
+import { BrokerDataComponent } from './form/broker-data/broker-data.component';
 
 const routes: Routes = [
   {
-    path: 'broker-form/:id',
-    component: BrokerFormComponent
+    path: 'broker-data/:id',
+    component: BrokerDataComponent
   },
 
 ];

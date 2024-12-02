@@ -2,14 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { BrokerFormComponent } from './form-data/broker-form.component';
+import { BrokerDataComponent } from './form/broker-data/broker-data.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BrokerFormComponent
+    BrokerDataComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
@@ -17,8 +20,7 @@ import { BrokerFormComponent } from './form-data/broker-form.component';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  exports: [BrokerFormComponent],
-  providers: [],
+  exports: [BrokerDataComponent, FormComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
